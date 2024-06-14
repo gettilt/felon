@@ -5,7 +5,7 @@ with open('config.json') as file:
   config = json.load(file)
   cog.outl(f"# {config['name'].title()}")
 ]]]-->
-# Felon
+# Felons
 <!--//[[[end]]]-->
 
 ## Mission
@@ -94,8 +94,8 @@ with open('config.json') as file:
   cog.outl(f'  <img src="https://contrib.rocks/image?repo=gettilt/{repo}" />')
   cog.outl('</a>')
 ]]]-->
-<a href="https://github.com/gettilt/felon/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=gettilt/felon" />
+<a href="https://github.com/gettilt/felons/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gettilt/felons" />
 </a>
 <!--[[[end]]]-->
 
