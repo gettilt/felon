@@ -5,6 +5,7 @@ with open('config.json') as file:
   config = json.load(file)
   cog.outl(f"# {config['name'].title()}")
 ]]]-->
+# Felon
 <!--//[[[end]]]-->
 
 ## Mission
@@ -20,6 +21,7 @@ with open('config.json') as file:
   config = json.load(file)
   cog.outl(config['prompt'])
 ]]]-->
+Companies that are run by felons are willing to take more risks. The world is packed with regulations that need to be broken, those run by felons can bend the law to earn more. Trump has opened the door showing even felons can run for president.
 <!--[[[end]]]-->
 
 ## Theme Stocks
@@ -51,6 +53,24 @@ with open('theme.csv') as file:
     context_str = _get_context_str_for_ticker(row[0])
     cog.outl(f"| {row[0]} | {context_str} | {row[1]} |")
 ]]]-->
+| Ticker  | Context | Source |
+| ------- | ---- | ---- |
+| GS | Goldman Sachs has faced legal issues related to financial practices but remains a leading investment bank. | chat_gpt |
+| PFE | Pfizer has faced legal challenges over drug pricing and marketing practices but remains a leading pharmaceutical company. | chat_gpt |
+| PLTR | Palantir, co-founded by Peter Thiel, has faced scrutiny over its data practices but continues to secure government contracts. | chat_gpt |
+| UBER | Uber has a history of regulatory battles and aggressive market tactics, yet remains a dominant player in ride-sharing. | chat_gpt |
+| WFC | Wells Fargo has been involved in multiple scandals but continues to be a major player in the banking industry. | chat_gpt |
+| AMC |  | twitter |
+| DJT |  | twitter |
+| FNGR |  | twitter |
+| GME |  | twitter |
+| SCLX |  | twitter |
+| CXW | CoreCivic, a private prison company, may benefit from relaxed regulations and a willingness to cut corners to maximize profits. | claude |
+| GEO | The GEO Group, another private prison operator, could see increased business as felon-run companies seek cost-cutting measures. | claude |
+| MPC | Marathon Petroleum, another refining company, may be more aggressive in expanding operations and lobbying for favorable policies. | claude |
+| TRGP | Targa Resources, an energy infrastructure company, may be more likely to skirt environmental regulations under felon leadership. | claude |
+| VLO | Valero Energy, a petroleum refining company, could benefit from leaders willing to push the boundaries of safety and environmental standards. | claude |
+| TKO |  | manual |
 <!--[[[end]]]-->
 
 ## License
@@ -74,6 +94,9 @@ with open('config.json') as file:
   cog.outl(f'  <img src="https://contrib.rocks/image?repo=gettilt/{repo}" />')
   cog.outl('</a>')
 ]]]-->
+<a href="https://github.com/gettilt/felon/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gettilt/felon" />
+</a>
 <!--[[[end]]]-->
 
 ## Join Our Community
